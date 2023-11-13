@@ -133,7 +133,7 @@ a:focus {
 
 .navbar-brand span {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 50;
   color: #191919;
   text-transform: uppercase;
 }
@@ -774,7 +774,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #363636;
+  background-color: #3f503d;
   color: #ffffff;
 }
 
@@ -921,7 +921,7 @@ a:focus {
 
 /* footer section*/
 .footer_section {
-  background-color: #363636;
+  background-color: #3f503d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
