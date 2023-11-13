@@ -191,7 +191,7 @@
       const telefono = document.getElementById('telefono').value;
       const mensaje = document.getElementById('mensaje').value;
 
-      fetch('http://127.0.0.1:5000/enviarMensaje', {
+      fetch('https://flask-production-5f13.up.railway.app/contacto', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -200,7 +200,7 @@
             })
             .then(response => response.text())
             .then(message => {
-              alert(message);
+              alert("Tu mensaje ha sido enviado con éxito.");
               cleanMessageForm();
             })
             .catch(error => console.error('Error:', error));
